@@ -1,7 +1,7 @@
 .. _Main:
 
-Documentation for the Code
-**************************
+Main
+****
 
 .. automodule:: tracking.main
     :members:

@@ -37,6 +37,13 @@ class TrackingThread(Thread):
         self.clusters = []
 
     def process(self, frame):
+        """
+        Processes a single frame, and outputs the results to ``self.frames``. Note that this may block if the frame
+        queue is full.
+
+        :param frame: the frame to process
+        """
+
         frame = preprocess(frame)
 
         edges = find_edges(frame)
@@ -55,9 +62,9 @@ class TrackingThread(Thread):
     def get_frame(self):
         """
         Gets the frame in the queue. This is equivalent to `self.frames.get()`.
+
         :return: name, frame_count, frame, points, clusters
         """
-
         return self.frames.get()
 
     def process_dummy(self, frame, iterations = 1):
@@ -81,6 +88,9 @@ class TrackingThread(Thread):
 
 
 def show_camera((name, frame_count, frame, points, clusters)):
+    """
+    Displays the output for a particular :class:`TrackingThread` instance into a named window.
+    """
     dest = frame.copy()
 
     for point in points:
