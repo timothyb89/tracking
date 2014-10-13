@@ -1,19 +1,7 @@
-import math
 import cv2
-import numpy as np
-import numpy.linalg as la
 
-from collections import deque, namedtuple
 from Queue import Queue
-from threading import Thread, Event
-
-SIZE = (640, 480)
-
-BUFFER_LENGTH = 50
-MAX_DISTANCE = 320
-WINDOW_SIZE = 10
-FRAME_TIMEOUT = 20
-POINT_MAX_HEALTH = 50
+from threading import Thread
 
 from vision import preprocess, find_edges, find_circles
 from point import find_points
@@ -27,6 +15,7 @@ class TrackingThread(Thread):
 
         self.frames = Queue(maxsize = 1)
 
+        # noinspection PyArgumentList
         self.capture = cv2.VideoCapture(camera_id)
         self.name = name
 
@@ -43,7 +32,6 @@ class TrackingThread(Thread):
 
         :param frame: the frame to process
         """
-
         frame = preprocess(frame)
 
         edges = find_edges(frame)
@@ -158,4 +146,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
