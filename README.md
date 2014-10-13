@@ -5,7 +5,7 @@ Cheap and easy point and hand tracking in Python with OpenCV.
 
 Goals
 -----
-* Inexpensive: most hand tracking products currently available are expensive, difficult to obtain, etc. This uses less than $50 in off-the-shelf parts which you can acquire at a hardware store.
+* Inexpensive: most hand tracking products currently available are expensive, difficult to obtain, etc. This uses less than $50 in off-the-shelf parts which you can acquire at an office supply store.
 * Unpowered: no IR LEDs or other "active" tracking aids needed needed
 * Simple: no complex calibration required, can utilize an arbitrary number of cameras
 
