@@ -41,7 +41,19 @@ class TrackingThread(Thread):
         self.points = points
 
         acceptable = filter(lambda p: p.quality > 0.25, self.points)
-        clusters = find_clusters(acceptable, max_length = 3)
+
+        dead_clusters = []
+        for cluster in self.clusters:
+            cluster.clean(self.frame_count)
+
+            if cluster.is_dead:
+                dead_clusters.append(cluster)
+
+        for cluster in dead_clusters:
+            self.clusters.remove(cluster)
+
+        clusters = find_clusters(acceptable, self.clusters, max_length = 3)
+        self.clusters = clusters
 
         self.frame_count += 1
 
@@ -81,8 +93,11 @@ def show_camera((name, frame_count, frame, points, clusters)):
     """
     dest = frame.copy()
 
-    for point in points:
-        point.draw(dest, frame_count)
+    #for point in points:
+    #    point.draw(dest, frame_count)
+
+    for cluster in clusters:
+        cluster.draw(dest)
 
     #for cluster, center in clusters:
     #    for point in cluster:
@@ -145,4 +160,10 @@ def main():
 
 
 if __name__ == '__main__':
+    import yappi
+    yappi.start()
+
     main()
+
+    yappi.get_func_stats().save('yappi.cg', type = 'callgrind')
+

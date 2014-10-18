@@ -61,7 +61,7 @@ def find_edges(frame):
     # expensive and the point tracking is robust enough that it isn't necessary
     #eroded = cv2.dilate(eroded, kernel, iterations = 20)
 
-    ret, black = cv2.threshold(eroded, 40, 255, cv2.THRESH_BINARY_INV)
+    ret, black = cv2.threshold(eroded, 60, 255, cv2.THRESH_BINARY_INV)
 
     # merge into single binary image to use as mask
     bb, bg, br = cv2.split(black)
