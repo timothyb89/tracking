@@ -137,9 +137,9 @@ def show_dummy(thread, frame, iterations = 1):
 
 def main():
     threads = [
-        TrackingThread(0, "Center"),
+        #TrackingThread(0, "Center"),
         #TrackingThread(1, "Right"),
-        #TrackingThread(2, "Left")
+        TrackingThread(2, "Left")
     ]
 
     for thread in threads:

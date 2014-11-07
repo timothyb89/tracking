@@ -1,0 +1,1035 @@
+version: 1
+creator: yappi
+pid: 15473
+cmd:  /home/tim/PycharmProjects/tracking/tracking/main.py
+part: 1
+
+events: Ticks
+
+fl=(29) /home/tim/PycharmProjects/tracking/tracking/main.py
+fl=(35) /home/tim/PycharmProjects/tracking/tracking/main.py
+fl=(0) /home/tim/PycharmProjects/tracking/tracking/main.py
+fl=(38) /home/tim/PycharmProjects/tracking/tracking/vision.py
+fl=(36) /home/tim/PycharmProjects/tracking/tracking/vision.py
+fl=(45) /home/tim/PycharmProjects/tracking/tracking/vision.py
+fl=(62) /home/tim/PycharmProjects/tracking/tracking/main.py
+fl=(50) /home/tim/PycharmProjects/tracking/tracking/point.py
+fl=(77) /home/tim/PycharmProjects/tracking/tracking/point.py
+fl=(78) /usr/lib64/python2.7/site-packages/numpy/core/fromnumeric.py
+fl=(96) /home/tim/PycharmProjects/tracking/tracking/point.py
+fl=(79) /usr/lib64/python2.7/site-packages/numpy/core/_methods.py
+fl=(80) /usr/lib64/python2.7/site-packages/numpy/core/numeric.py
+fl=(32) /usr/lib64/python2.7/Queue.py
+fl=(76) /home/tim/PycharmProjects/tracking/tracking/point.py
+fl=(92) /home/tim/PycharmProjects/tracking/tracking/point.py
+fl=(126) /home/tim/PycharmProjects/tracking/tracking/cluster.py
+fl=(109) /usr/lib64/python2.7/site-packages/numpy/matrixlib/defmatrix.py
+fl=(85) /usr/lib64/python2.7/site-packages/numpy/lib/function_base.py
+fl=(24) /usr/lib64/python2.7/threading.py
+fl=(93) /home/tim/PycharmProjects/tracking/tracking/point.py
+fl=(103) /usr/lib64/python2.7/site-packages/numpy/matrixlib/defmatrix.py
+fl=(83) /usr/lib64/python2.7/site-packages/numpy/core/_methods.py
+fl=(107) /usr/lib64/python2.7/site-packages/numpy/matrixlib/defmatrix.py
+fl=(53) /home/tim/PycharmProjects/tracking/tracking/cluster.py
+fl=(99) /usr/lib64/python2.7/site-packages/numpy/linalg/linalg.py
+fl=(58) /usr/lib64/python2.7/threading.py
+fl=(104) /usr/lib64/python2.7/site-packages/numpy/matrixlib/defmatrix.py
+fl=(55) /usr/lib64/python2.7/Queue.py
+fl=(91) /home/tim/PycharmProjects/tracking/tracking/point.py
+fl=(132) /home/tim/PycharmProjects/tracking/tracking/cluster.py
+fl=(105) /usr/lib64/python2.7/site-packages/numpy/matrixlib/defmatrix.py
+fl=(133) /home/tim/PycharmProjects/tracking/tracking/cluster.py
+fl=(87) /home/tim/PycharmProjects/tracking/tracking/main.py
+fl=(134) /home/tim/PycharmProjects/tracking/tracking/cluster.py
+fl=(127) /home/tim/PycharmProjects/tracking/tracking/cluster.py
+fl=(111) /home/tim/PycharmProjects/tracking/tracking/point.py
+fl=(88) /home/tim/PycharmProjects/tracking/tracking/point.py
+fl=(25) /usr/lib64/python2.7/threading.py
+fl=(72) /home/tim/PycharmProjects/tracking/tracking/color.py
+fl=(119) /home/tim/PycharmProjects/tracking/tracking/cluster.py
+fl=(33) /usr/lib64/python2.7/Queue.py
+fl=(31) /usr/lib64/python2.7/threading.py
+fl=(117) /home/tim/PycharmProjects/tracking/tracking/cluster.py
+fl=(135) /home/tim/PycharmProjects/tracking/tracking/cluster.py
+fl=(128) /home/tim/PycharmProjects/tracking/tracking/point.py
+fl=(112) /home/tim/PycharmProjects/tracking/tracking/point.py
+fl=(86) /home/tim/PycharmProjects/tracking/tracking/point.py
+fl=(75) /home/tim/PycharmProjects/tracking/tracking/vision.py
+fl=(115) /home/tim/PycharmProjects/tracking/tracking/cluster.py
+fl=(94) /home/tim/PycharmProjects/tracking/tracking/point.py
+fl=(20) /usr/lib64/python2.7/threading.py
+fl=(97) /home/tim/PycharmProjects/tracking/tracking/point.py
+fl=(60) /usr/lib64/python2.7/Queue.py
+fl=(100) /usr/lib64/python2.7/site-packages/numpy/core/numeric.py
+fl=(120) /home/tim/PycharmProjects/tracking/tracking/cluster.py
+fl=(98) /home/tim/PycharmProjects/tracking/tracking/point.py
+fl=(27) /usr/lib64/python2.7/threading.py
+fl=(89) /home/tim/PycharmProjects/tracking/tracking/point.py
+fl=(113) /home/tim/PycharmProjects/tracking/tracking/point.py
+fl=(56) /usr/lib64/python2.7/Queue.py
+fl=(90) /home/tim/PycharmProjects/tracking/tracking/point.py
+fl=(54) /usr/lib64/python2.7/threading.py
+fl=(95) /home/tim/PycharmProjects/tracking/tracking/point.py
+fl=(118) /home/tim/PycharmProjects/tracking/tracking/cluster.py
+fl=(1) /home/tim/PycharmProjects/tracking/tracking/main.py
+fl=(136) /home/tim/PycharmProjects/tracking/tracking/cluster.py
+fl=(114) /home/tim/PycharmProjects/tracking/tracking/cluster.py
+fl=(122) /home/tim/PycharmProjects/tracking/tracking/cluster.py
+fl=(116) /home/tim/PycharmProjects/tracking/tracking/cluster.py
+fl=(124) /home/tim/PycharmProjects/tracking/tracking/cluster.py
+fl=(123) /home/tim/PycharmProjects/tracking/tracking/point.py
+fl=(18) /usr/lib64/python2.7/threading.py
+fl=(121) /home/tim/PycharmProjects/tracking/tracking/cluster.py
+fl=(22) /usr/lib64/python2.7/threading.py
+fl=(2) /usr/lib64/python2.7/threading.py
+fl=(12) /usr/lib64/python2.7/threading.py
+fl=(14) /usr/lib64/python2.7/Queue.py
+fl=(13) /usr/lib64/python2.7/threading.py
+fl=(140) /usr/lib64/python2.7/threading.py
+fl=(9) /usr/lib64/python2.7/threading.py
+fl=(10) /usr/lib64/python2.7/threading.py
+fl=(142) /usr/lib64/python2.7/threading.py
+fl=(17) /usr/lib64/python2.7/threading.py
+fl=(5) /usr/lib64/python2.7/threading.py
+fl=(15) /usr/lib64/python2.7/Queue.py
+fl=(4) /usr/lib64/python2.7/threading.py
+fl=(3) /usr/lib64/python2.7/threading.py
+fl=(6) /usr/lib64/python2.7/threading.py
+fl=(19) /usr/lib64/python2.7/threading.py
+fl=(8) /usr/lib64/python2.7/threading.py
+
+fn=(29) TrackingThread.run /home/tim/PycharmProjects/tracking/tracking/main.py:79
+fn=(35) TrackingThread.process /home/tim/PycharmProjects/tracking/tracking/main.py:28
+fn=(0) main /home/tim/PycharmProjects/tracking/tracking/main.py:138
+fn=(38) find_edges /home/tim/PycharmProjects/tracking/tracking/vision.py:48
+fn=(36) preprocess /home/tim/PycharmProjects/tracking/tracking/vision.py:38
+fn=(45) find_circles /home/tim/PycharmProjects/tracking/tracking/vision.py:78
+fn=(62) show_camera /home/tim/PycharmProjects/tracking/tracking/main.py:90
+fn=(50) find_points /home/tim/PycharmProjects/tracking/tracking/point.py:419
+fn=(77) Point.update /home/tim/PycharmProjects/tracking/tracking/point.py:126
+fn=(78) mean /usr/lib64/python2.7/site-packages/numpy/core/fromnumeric.py:2405
+fn=(96) Point.get_search_bounds /home/tim/PycharmProjects/tracking/tracking/point.py:215
+fn=(79) _mean /usr/lib64/python2.7/site-packages/numpy/core/_methods.py:42
+fn=(80) asanyarray /usr/lib64/python2.7/site-packages/numpy/core/numeric.py:322
+fn=(32) Queue.get /usr/lib64/python2.7/Queue.py:150
+fn=(76) Point.__init__ /home/tim/PycharmProjects/tracking/tracking/point.py:96
+fn=(92) Point.predicted_distance_squared /home/tim/PycharmProjects/tracking/tracking/point.py:273
+fn=(126) Cluster.draw /home/tim/PycharmProjects/tracking/tracking/cluster.py:85
+fn=(109) matrix.__getitem__ /usr/lib64/python2.7/site-packages/numpy/matrixlib/defmatrix.py:301
+fn=(85) diff /usr/lib64/python2.7/site-packages/numpy/lib/function_base.py:934
+fn=(24) _Condition.wait /usr/lib64/python2.7/threading.py:308
+fn=(93) Point.predicted_pos /home/tim/PycharmProjects/tracking/tracking/point.py:187
+fn=(103) matrix.__mul__ /usr/lib64/python2.7/site-packages/numpy/matrixlib/defmatrix.py:327
+fn=(83) _count_reduce_items /usr/lib64/python2.7/site-packages/numpy/core/_methods.py:32
+fn=(107) matrix.__array_finalize__ /usr/lib64/python2.7/site-packages/numpy/matrixlib/defmatrix.py:279
+fn=(53) find_clusters /home/tim/PycharmProjects/tracking/tracking/cluster.py:123
+fn=(99) norm /usr/lib64/python2.7/site-packages/numpy/linalg/linalg.py:1868
+fn=(58) _Condition.notify /usr/lib64/python2.7/threading.py:372
+fn=(104) asmatrix /usr/lib64/python2.7/site-packages/numpy/matrixlib/defmatrix.py:55
+fn=(55) Queue.put /usr/lib64/python2.7/Queue.py:107
+fn=(91) Point.in_predicted_bounds /home/tim/PycharmProjects/tracking/tracking/point.py:257
+fn=(132) Cluster.distance /home/tim/PycharmProjects/tracking/tracking/cluster.py:82
+fn=(105) __new__ /usr/lib64/python2.7/site-packages/numpy/matrixlib/defmatrix.py:233
+fn=(133) Cluster.mean_distance /home/tim/PycharmProjects/tracking/tracking/cluster.py:79
+fn=(87) <lambda> /home/tim/PycharmProjects/tracking/tracking/main.py:43
+fn=(134) Cluster.sum_of_distances /home/tim/PycharmProjects/tracking/tracking/cluster.py:71
+fn=(127) Cluster.predicted_points /home/tim/PycharmProjects/tracking/tracking/cluster.py:42
+fn=(111) Point.distance_squared /home/tim/PycharmProjects/tracking/tracking/point.py:278
+fn=(88) Point.quality /home/tim/PycharmProjects/tracking/tracking/point.py:401
+fn=(25) _Condition._is_owned /usr/lib64/python2.7/threading.py:299
+fn=(72) bgr_to_hsv /home/tim/PycharmProjects/tracking/tracking/color.py:23
+fn=(119) get_center /home/tim/PycharmProjects/tracking/tracking/cluster.py:104
+fn=(33) Queue._qsize /usr/lib64/python2.7/Queue.py:200
+fn=(31) _Condition._acquire_restore /usr/lib64/python2.7/threading.py:296
+fn=(117) Cluster.update /home/tim/PycharmProjects/tracking/tracking/cluster.py:33
+fn=(135) Cluster.clean /home/tim/PycharmProjects/tracking/tracking/cluster.py:47
+fn=(128) SimplePoint.pos /home/tim/PycharmProjects/tracking/tracking/point.py:73
+fn=(112) Point.midpoint /home/tim/PycharmProjects/tracking/tracking/point.py:288
+fn=(86) Point.last_frame /home/tim/PycharmProjects/tracking/tracking/point.py:397
+fn=(75) Circle.__init__ /home/tim/PycharmProjects/tracking/tracking/vision.py:24
+fn=(115) get_cluster /home/tim/PycharmProjects/tracking/tracking/cluster.py:115
+fn=(94) Point.pos /home/tim/PycharmProjects/tracking/tracking/point.py:392
+fn=(20) TrackingThread._note /usr/lib64/python2.7/threading.py:63
+fn=(97) Point.x /home/tim/PycharmProjects/tracking/tracking/point.py:376
+fn=(60) Queue._get /usr/lib64/python2.7/Queue.py:208
+fn=(100) asarray /usr/lib64/python2.7/site-packages/numpy/core/numeric.py:252
+fn=(120) Cluster.contains /home/tim/PycharmProjects/tracking/tracking/cluster.py:20
+fn=(98) Point.y /home/tim/PycharmProjects/tracking/tracking/point.py:380
+fn=(27) _Condition._release_save /usr/lib64/python2.7/threading.py:293
+fn=(89) Point.is_expired /home/tim/PycharmProjects/tracking/tracking/point.py:161
+fn=(113) SimplePoint.__init__ /home/tim/PycharmProjects/tracking/tracking/point.py:69
+fn=(56) Queue._put /usr/lib64/python2.7/Queue.py:204
+fn=(90) Point.update_empty /home/tim/PycharmProjects/tracking/tracking/point.py:152
+fn=(54) TrackingThread.name /usr/lib64/python2.7/threading.py:967
+fn=(95) <lambda> /home/tim/PycharmProjects/tracking/tracking/point.py:451
+fn=(118) Cluster.is_empty /home/tim/PycharmProjects/tracking/tracking/cluster.py:63
+fn=(1) TrackingThread.__init__ /home/tim/PycharmProjects/tracking/tracking/main.py:13
+fn=(136) Cluster.is_dead /home/tim/PycharmProjects/tracking/tracking/cluster.py:67
+fn=(114) <lambda> /home/tim/PycharmProjects/tracking/tracking/cluster.py:144
+fn=(122) Cluster.sim_center /home/tim/PycharmProjects/tracking/tracking/cluster.py:39
+fn=(116) Cluster.__init__ /home/tim/PycharmProjects/tracking/tracking/cluster.py:13
+fn=(124) Cluster.add /home/tim/PycharmProjects/tracking/tracking/cluster.py:23
+fn=(123) SimplePoint.distance_squared /home/tim/PycharmProjects/tracking/tracking/point.py:77
+fn=(18) TrackingThread.start /usr/lib64/python2.7/threading.py:726
+fn=(121) Cluster.size /home/tim/PycharmProjects/tracking/tracking/cluster.py:59
+fn=(22) _Event.wait /usr/lib64/python2.7/threading.py:602
+fn=(2) TrackingThread.__init__ /usr/lib64/python2.7/threading.py:656
+fn=(12) Condition /usr/lib64/python2.7/threading.py:241
+fn=(14) Queue.__init__ /usr/lib64/python2.7/Queue.py:26
+fn=(13) _Condition.__init__ /usr/lib64/python2.7/threading.py:259
+fn=(140) TrackingThread.__stop /usr/lib64/python2.7/threading.py:866
+fn=(9) Event /usr/lib64/python2.7/threading.py:541
+fn=(10) _Event.__init__ /usr/lib64/python2.7/threading.py:560
+fn=(142) _Condition.notifyAll /usr/lib64/python2.7/threading.py:399
+fn=(17) TrackingThread.name /usr/lib64/python2.7/threading.py:978
+fn=(5) TrackingThread._set_daemon /usr/lib64/python2.7/threading.py:709
+fn=(15) Queue._init /usr/lib64/python2.7/Queue.py:197
+fn=(4) _newname /usr/lib64/python2.7/threading.py:627
+fn=(3) TrackingThread.__init__ /usr/lib64/python2.7/threading.py:58
+fn=(6) currentThread /usr/lib64/python2.7/threading.py:1152
+fn=(19) _Event.isSet /usr/lib64/python2.7/threading.py:569
+fn=(8) _MainThread.daemon /usr/lib64/python2.7/threading.py:1008
+
+fl=(29)
+fn=(29)
+79 561205
+cfl=(35)
+cfn=(35)
+calls=8829 0
+0 99428329
+
+fl=(35)
+fn=(35)
+28 1076230
+cfl=(136)
+cfn=(136)
+calls=1897 0
+0 1490
+cfl=(135)
+cfn=(135)
+calls=1897 0
+0 33424
+cfl=(55)
+cfn=(55)
+calls=8829 0
+0 196630
+cfl=(54)
+cfn=(54)
+calls=8829 0
+0 4996
+cfl=(53)
+cfn=(53)
+calls=8829 0
+0 234169
+cfl=(50)
+cfn=(50)
+calls=8829 0
+0 7981935
+cfl=(45)
+cfn=(45)
+calls=8829 0
+0 12855324
+cfl=(38)
+cfn=(38)
+calls=8829 0
+0 53016999
+cfl=(36)
+cfn=(36)
+calls=8829 0
+0 23864257
+
+fl=(0)
+fn=(0)
+138 290297
+cfl=(62)
+cfn=(62)
+calls=8828 0
+0 12302307
+cfl=(32)
+cfn=(32)
+calls=8829 0
+0 914646
+cfl=(18)
+cfn=(18)
+calls=1 0
+0 339
+cfl=(1)
+cfn=(1)
+calls=1 0
+0 2220
+
+fl=(38)
+fn=(38)
+48 163617
+
+fl=(36)
+fn=(36)
+38 42201
+
+fl=(45)
+fn=(45)
+78 612694
+cfl=(75)
+cfn=(75)
+calls=15895 0
+0 26088
+cfl=(72)
+cfn=(72)
+calls=15895 0
+0 75661
+
+fl=(62)
+fn=(62)
+90 240429
+cfl=(126)
+cfn=(126)
+calls=1897 0
+0 674784
+
+fl=(50)
+fn=(50)
+419 418387
+cfl=(77)
+cfn=(77)
+calls=12624 0
+0 5839253
+cfl=(92)
+cfn=(92)
+calls=93952 0
+0 704096
+cfl=(91)
+cfn=(91)
+calls=93952 0
+0 195627
+cfl=(90)
+cfn=(90)
+calls=17682 0
+0 7505
+cfl=(89)
+cfn=(89)
+calls=28436 0
+0 13141
+cfl=(86)
+cfn=(86)
+calls=28440 0
+0 10862
+cfl=(76)
+cfn=(76)
+calls=3271 0
+0 720762
+
+fl=(77)
+fn=(77)
+126 295178
+cfl=(96)
+cfn=(96)
+calls=12624 0
+0 2731072
+cfl=(85)
+cfn=(85)
+calls=31790 0
+0 578863
+cfl=(78)
+cfn=(78)
+calls=95370 0
+0 2900817
+
+fl=(78)
+fn=(78)
+2405 267240
+cfl=(79)
+cfn=(79)
+calls=95370 0
+0 2633577
+
+fl=(96)
+fn=(96)
+215 781293
+cfl=(109)
+cfn=(109)
+calls=75744 0
+0 621204
+cfl=(107)
+cfn=(107)
+calls=50496 0
+0 69805
+cfl=(103)
+cfn=(103)
+calls=25248 0
+0 413875
+cfl=(99)
+cfn=(99)
+calls=12624 0
+0 216387
+cfl=(98)
+cfn=(98)
+calls=12624 0
+0 5486
+cfl=(97)
+cfn=(97)
+calls=12624 0
+0 9797
+
+fl=(79)
+fn=(79)
+42 618042
+cfl=(83)
+cfn=(83)
+calls=95370 0
+0 288595
+cfl=(80)
+cfn=(80)
+calls=95370 0
+0 1033923
+
+fl=(80)
+fn=(80)
+322 116905
+
+fl=(32)
+fn=(32)
+150 175785
+cfl=(58)
+cfn=(58)
+calls=8829 0
+0 94566
+cfl=(60)
+cfn=(60)
+calls=8829 0
+0 21395
+cfl=(24)
+cfn=(24)
+calls=8824 0
+0 557213
+cfl=(33)
+cfn=(33)
+calls=17653 0
+0 45622
+
+fl=(76)
+fn=(76)
+96 21650
+cfl=(77)
+cfn=(77)
+calls=3271 0
+0 699111
+
+fl=(92)
+fn=(92)
+273 297162
+cfl=(93)
+cfn=(93)
+calls=93952 0
+0 406934
+
+fl=(126)
+fn=(126)
+85 142359
+cfl=(132)
+cfn=(132)
+calls=1897 0
+0 162390
+cfl=(128)
+cfn=(128)
+calls=20337 0
+0 32922
+cfl=(119)
+cfn=(119)
+calls=1897 0
+0 41783
+cfl=(127)
+cfn=(127)
+calls=6507 0
+0 127355
+
+fl=(109)
+fn=(109)
+301 458203
+cfl=(107)
+cfn=(107)
+calls=100992 0
+0 112865
+
+fl=(85)
+fn=(85)
+934 281696
+cfl=(80)
+cfn=(80)
+calls=31790 0
+0 289330
+
+fl=(24)
+fn=(24)
+308 181753
+cfl=(31)
+cfn=(31)
+calls=8826 0
+0 46006
+cfl=(20)
+cfn=(20)
+calls=8826 0
+0 15472
+cfl=(27)
+cfn=(27)
+calls=8826 0
+0 15349
+cfl=(25)
+cfn=(25)
+calls=8826 0
+0 28372
+
+fl=(93)
+fn=(93)
+187 430215
+cfl=(86)
+cfn=(86)
+calls=54351 0
+0 19131
+cfl=(94)
+cfn=(94)
+calls=39601 0
+0 25138
+
+fl=(103)
+fn=(103)
+327 57287
+cfl=(104)
+cfn=(104)
+calls=25248 0
+0 205780
+
+fl=(83)
+fn=(83)
+32 252701
+
+fl=(107)
+fn=(107)
+279 205059
+
+fl=(53)
+fn=(53)
+123 76778
+cfl=(117)
+cfn=(117)
+calls=1811 0
+0 18218
+cfl=(124)
+cfn=(124)
+calls=37 0
+0 578
+cfl=(123)
+cfn=(123)
+calls=178 0
+0 454
+cfl=(122)
+cfn=(122)
+calls=96 0
+0 1046
+cfl=(121)
+cfn=(121)
+calls=337 0
+0 250
+cfl=(116)
+cfn=(116)
+calls=52 0
+0 856
+cfl=(115)
+cfn=(115)
+calls=11558 0
+0 26002
+cfl=(112)
+cfn=(112)
+calls=5779 0
+0 30194
+cfl=(111)
+cfn=(111)
+calls=8180 0
+0 57542
+
+fl=(99)
+fn=(99)
+1868 118028
+cfl=(100)
+cfn=(100)
+calls=12624 0
+0 20576
+
+fl=(58)
+fn=(58)
+372 105707
+cfl=(20)
+cfn=(20)
+calls=17659 0
+0 8133
+cfl=(25)
+cfn=(25)
+calls=17659 0
+0 52939
+
+fl=(104)
+fn=(104)
+55 43664
+cfl=(105)
+cfn=(105)
+calls=25248 0
+0 162115
+
+fl=(55)
+fn=(55)
+107 54811
+cfl=(24)
+cfn=(24)
+calls=1 0
+0 90
+cfl=(58)
+cfn=(58)
+calls=8829 0
+0 111270
+cfl=(56)
+cfn=(56)
+calls=8829 0
+0 10690
+cfl=(33)
+cfn=(33)
+calls=8830 0
+0 10552
+
+fl=(91)
+fn=(91)
+257 85794
+
+fl=(132)
+fn=(132)
+82 13292
+cfl=(133)
+cfn=(133)
+calls=1897 0
+0 149098
+
+fl=(105)
+fn=(105)
+233 48258
+
+fl=(133)
+fn=(133)
+79 13563
+cfl=(134)
+cfn=(134)
+calls=1897 0
+0 134184
+
+fl=(87)
+fn=(87)
+43 46098
+cfl=(88)
+cfn=(88)
+calls=28440 0
+0 90759
+
+fl=(134)
+fn=(134)
+71 71183
+cfl=(111)
+cfn=(111)
+calls=4610 0
+0 63000
+
+fl=(127)
+fn=(127)
+42 35303
+cfl=(113)
+cfn=(113)
+calls=4610 0
+0 5882
+cfl=(93)
+cfn=(93)
+calls=4610 0
+0 86170
+
+fl=(111)
+fn=(111)
+278 113719
+cfl=(98)
+cfn=(98)
+calls=8180 0
+0 3413
+cfl=(97)
+cfn=(97)
+calls=8180 0
+0 3409
+
+fl=(88)
+fn=(88)
+401 90759
+
+fl=(25)
+fn=(25)
+299 55815
+
+fl=(72)
+fn=(72)
+23 53417
+
+fl=(119)
+fn=(119)
+104 60659
+cfl=(113)
+cfn=(113)
+calls=5785 0
+0 3421
+cfl=(98)
+cfn=(98)
+calls=9420 0
+0 3245
+cfl=(97)
+cfn=(97)
+calls=9420 0
+0 4153
+
+fl=(33)
+fn=(33)
+200 35898
+
+fl=(31)
+fn=(31)
+296 25417
+
+fl=(117)
+fn=(117)
+33 9078
+cfl=(113)
+cfn=(113)
+calls=5 0
+0 3
+cfl=(119)
+cfn=(119)
+calls=3792 0
+0 32226
+cfl=(118)
+cfn=(118)
+calls=3797 0
+0 3407
+
+fl=(135)
+fn=(135)
+47 5994
+cfl=(117)
+cfn=(117)
+calls=1897 0
+0 25513
+cfl=(89)
+cfn=(89)
+calls=4610 0
+0 1622
+
+fl=(128)
+fn=(128)
+73 32922
+
+fl=(112)
+fn=(112)
+288 20367
+cfl=(113)
+cfn=(113)
+calls=5779 0
+0 1977
+cfl=(98)
+cfn=(98)
+calls=11558 0
+0 3664
+cfl=(97)
+cfn=(97)
+calls=11558 0
+0 4186
+
+fl=(86)
+fn=(86)
+397 29994
+
+fl=(75)
+fn=(75)
+24 26088
+
+fl=(115)
+fn=(115)
+115 7963
+cfl=(120)
+cfn=(120)
+calls=11717 0
+0 18038
+
+fl=(94)
+fn=(94)
+392 25138
+
+fl=(20)
+fn=(20)
+63 23607
+
+fl=(97)
+fn=(97)
+376 21600
+
+fl=(60)
+fn=(60)
+208 16215
+
+fl=(100)
+fn=(100)
+252 10823
+
+fl=(120)
+fn=(120)
+20 18038
+
+fl=(98)
+fn=(98)
+380 15859
+
+fl=(27)
+fn=(27)
+293 12189
+
+fl=(89)
+fn=(89)
+161 14764
+
+fl=(113)
+fn=(113)
+69 11284
+
+fl=(56)
+fn=(56)
+204 8267
+
+fl=(90)
+fn=(90)
+152 7505
+
+fl=(54)
+fn=(54)
+967 4996
+
+fl=(95)
+fn=(95)
+451 3862
+
+fl=(118)
+fn=(118)
+63 2513
+
+fl=(1)
+fn=(1)
+13 42
+cfl=(17)
+cfn=(17)
+calls=1 0
+0 6
+cfl=(14)
+cfn=(14)
+calls=1 0
+0 30
+cfl=(2)
+cfn=(2)
+calls=1 0
+0 52
+
+fl=(136)
+fn=(136)
+67 1156
+
+fl=(114)
+fn=(114)
+144 1459
+
+fl=(122)
+fn=(122)
+39 229
+cfl=(119)
+cfn=(119)
+calls=96 0
+0 817
+
+fl=(116)
+fn=(116)
+13 290
+cfl=(117)
+cfn=(117)
+calls=52 0
+0 566
+
+fl=(124)
+fn=(124)
+23 83
+cfl=(117)
+cfn=(117)
+calls=37 0
+0 416
+
+fl=(123)
+fn=(123)
+77 352
+cfl=(98)
+cfn=(98)
+calls=141 0
+0 48
+cfl=(97)
+cfn=(97)
+calls=141 0
+0 52
+
+fl=(18)
+fn=(18)
+726 40
+cfl=(22)
+cfn=(22)
+calls=1 0
+0 189
+cfl=(20)
+cfn=(20)
+calls=1 0
+0 1
+cfl=(19)
+cfn=(19)
+calls=1 0
+0 0
+
+fl=(121)
+fn=(121)
+59 187
+
+fl=(22)
+fn=(22)
+602 32
+cfl=(24)
+cfn=(24)
+calls=1 0
+0 154
+
+fl=(2)
+fn=(2)
+656 13
+cfl=(12)
+cfn=(12)
+calls=1 0
+0 6
+cfl=(9)
+cfn=(9)
+calls=1 0
+0 20
+cfl=(5)
+cfn=(5)
+calls=1 0
+0 6
+cfl=(4)
+cfn=(4)
+calls=1 0
+0 4
+cfl=(3)
+cfn=(3)
+calls=1 0
+0 1
+
+fl=(12)
+fn=(12)
+241 8
+cfl=(13)
+cfn=(13)
+calls=5 0
+0 30
+
+fl=(14)
+fn=(14)
+26 5
+cfl=(12)
+cfn=(12)
+calls=3 0
+0 19
+cfl=(15)
+cfn=(15)
+calls=1 0
+0 4
+
+fl=(13)
+fn=(13)
+259 27
+cfl=(3)
+cfn=(3)
+calls=5 0
+0 2
+
+fl=(140)
+fn=(140)
+866 9
+cfl=(142)
+cfn=(142)
+calls=1 0
+0 13
+
+fl=(9)
+fn=(9)
+541 2
+cfl=(10)
+cfn=(10)
+calls=1 0
+0 17
+
+fl=(10)
+fn=(10)
+560 3
+cfl=(12)
+cfn=(12)
+calls=1 0
+0 12
+cfl=(3)
+cfn=(3)
+calls=1 0
+0 0
+
+fl=(142)
+fn=(142)
+399 2
+cfl=(58)
+cfn=(58)
+calls=1 0
+0 11
+
+fl=(17)
+fn=(17)
+978 6
+
+fl=(5)
+fn=(5)
+709 3
+cfl=(8)
+cfn=(8)
+calls=1 0
+0 0
+cfl=(6)
+cfn=(6)
+calls=1 0
+0 1
+
+fl=(15)
+fn=(15)
+197 4
+
+fl=(4)
+fn=(4)
+627 4
+
+fl=(3)
+fn=(3)
+58 3
+
+fl=(6)
+fn=(6)
+1152 1
+
+fl=(19)
+fn=(19)
+569 0
+
+fl=(8)
+fn=(8)
+1008 0

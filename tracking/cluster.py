@@ -3,7 +3,10 @@ import cv2
 import numpy as np
 
 from point import SimplePoint
-from collections import deque
+
+DISTANCE_MULTIPLIER = 35.0
+DISTANCE_PHYSICAL   = 12.0
+
 
 class Cluster:
 
@@ -73,6 +76,12 @@ class Cluster:
 
         return sum
 
+    def mean_distance(self):
+        return self.sum_of_distances() / len(self.points)
+
+    def distance(self):
+        return (DISTANCE_MULTIPLIER / self.mean_distance()) * DISTANCE_PHYSICAL
+
     def draw(self, image):
         ppoints = list(self.predicted_points())
         pcenter = get_center(ppoints)
@@ -87,9 +96,9 @@ class Cluster:
         for a, b in zip(ppoints, ppoints[-1:] + ppoints[:-1]):
             cv2.line(image, a.pos, b.pos, (0, 0, 255), 1)
 
-        cv2.putText(image, "%.2f" % (self.sum_of_distances() / len(self.points)),
-                (int(self.center.x) + 5, int(self.center.y + 10)),
-                cv2.FONT_HERSHEY_SIMPLEX, 0.3, (255, 255, 255), lineType = cv2.LINE_AA)
+        cv2.putText(image, "%.2f" % (self.distance()),
+                    (int(self.center.x) + 5, int(self.center.y + 10)),
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.3, (255, 255, 255), lineType=cv2.LINE_AA)
 
 
 def get_center(points):
