@@ -82,15 +82,17 @@ class TrackingThread(Thread):
         while self.running:
             ret, frame = self.capture.read()
 
-            self.process(frame)
+            if frame is not None:
+                self.process(frame)
+            else:
+                print "reached end of stream"
+                break
 
+        running = False
         self.capture.release()
 
 
-def show_camera((name, frame_count, frame, points, clusters)):
-    """
-    Displays the output for a particular :class:`TrackingThread` instance into a named window.
-    """
+def draw_image(frame_count, frame, points, clusters):
     dest = frame.copy()
 
     #for point in points:
@@ -110,7 +112,14 @@ def show_camera((name, frame_count, frame, points, clusters)):
                 cv2.FONT_HERSHEY_SIMPLEX, 0.4,
                 (255, 255, 255), lineType = cv2.LINE_AA)
 
-    cv2.imshow(name, dest)
+    return dest
+
+
+def show_camera((name, frame_count, frame, points, clusters)):
+    """
+    Displays the output for a particular :class:`TrackingThread` instance into a named window.
+    """
+    cv2.imshow(name, draw_image(frame_count, frame, points, clusters))
 
 
 def show_dummy(thread, frame, iterations = 1):
@@ -137,17 +146,24 @@ def show_dummy(thread, frame, iterations = 1):
 
 def main():
     threads = [
+        TrackingThread("clusters.ogv", "clusters.ogv")
         #TrackingThread(0, "Center"),
         #TrackingThread(1, "Right"),
-        TrackingThread(2, "Left")
+        #TrackingThread(2, "Left")
     ]
 
     for thread in threads:
         thread.start()
 
+    output = cv2.VideoWriter("render.ogv", cv2.VideoWriter_fourcc('T', 'H', 'E', 'O'), 30, (1440, 810), True)
+
     while True:
         for thread in threads:
-            show_camera(thread.frames.get())
+            #show_camera(thread.frames.get())
+
+            name, frame_count, frame, points, clusters = thread.frames.get()
+
+            output.write(draw_image(frame_count, frame, points, clusters))
 
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break

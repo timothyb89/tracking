@@ -30,7 +30,7 @@ def bgr_to_hsv((b, g, r), convert = True):
     max_ = max(r, g, b)
     range_ = max_ - min_
 
-    if max_ == 0:
+    if max_ == 0 or range_ == 0:
         return 0, 0, 0
 
     # H'
